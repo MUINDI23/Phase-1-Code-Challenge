@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#item-form, #item-list {
+    margin-bottom: 20px;
+}
+
+#items {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
